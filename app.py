@@ -17,6 +17,7 @@ html_page = """
 </head>
 <body style="font-family: Arial; text-align: center; margin-top: 50px;">
     <h2>ML Model Prediction App 🚀</h2>
+    <p>This app predicts output based on the trained ML model.</p>
     
     <form action="/predict" method="post">
         <input type="number" name="input_value" placeholder="Enter value" required>
